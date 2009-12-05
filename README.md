@@ -4,9 +4,11 @@ This is a quick and dirty port of GitHub README styles to TextMate's preview win
 
 It allows you to see READMEs as they will be styled in GitHub:
 
-![Sample Screenshot](http://share.kyleneath.com/captures/Markdown_Preview-20091205-130214.jpg)
+![Sample Screenshot](http://share.kyleneath.com/captures/Markdown_Preview-20091205-130833.jpg)
 
 ## Installation
+
+These files need to live in `~/Library/Application Support/TextMate/Themes/WebPreview/github`  To install quickly:
 
     cd ~/Library/Application Support/TextMate/Themes/
     mkdir -p WebPreview
