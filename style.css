@@ -1,0 +1,176 @@
+/*------------------------------------------------------------------------------
+  @group Textmate Chrome
+------------------------------------------------------------------------------*/
+
+.github #tm_webpreview_header{
+  color:#eee;
+  background:#333;
+  border-bottom:2px solid #ccc;
+}
+
+.github #tm_webpreview_header #gradient{
+  display:none;
+}
+
+.github #tm_webpreview_header p{
+  margin:0 0 15px 0 !important;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------
+  @group Wiki Styles
+------------------------------------------------------------------------------*/
+
+.github{
+  font-family:Helvetica !important;
+}
+
+body.github{
+  background:#f8f8f8;
+}
+
+.github h1, h2, h3, h4, h5, h6 {
+  border: 0 !important;
+}
+
+.github h1 {
+  font-size: 170% !important;
+  border-top: 4px solid #aaa !important;
+  padding-top: .5em !important;
+  margin-top: 1.5em !important;
+}
+
+  .github h1:first-child {
+    margin-top: 0 !important;
+    padding-top: .25em !important;
+    border-top: none !important;
+  }
+
+.github h2 {
+  font-size: 150% !important;
+  margin-top: 1.5em !important;
+  border-top: 4px solid #e0e0e0 !important;
+  padding-top: .5em !important;
+}
+
+.github h3 {
+  margin-top: 1em !important;
+}
+
+.github p {
+  margin: 1em 0 !important;
+  line-height: 1.5em !important;
+}
+
+.github ul {
+  margin: 1em 0 1em 2em !important;
+}
+
+  .github ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+.github ol {
+  margin: 1em 0 1em 2em !important;
+}
+
+  .github ol ol {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+.github ul ul,
+.github ul ol,
+.github ol ol,
+.github ol ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.github blockquote {
+  margin: 1em 0 !important;
+  border-left: 5px solid #ddd !important;
+  padding-left: .6em !important;
+  color: #555 !important;
+}
+
+.github dt {
+  font-weight: bold !important;
+  margin-left: 1em !important;
+}
+
+.github dd {
+  margin-left: 2em !important;
+  margin-bottom: 1em !important;
+}
+
+.github table {
+  margin: 1em 0 !important;
+}
+
+  .github table th {
+    border-bottom: 1px solid #bbb !important;
+    padding: .2em 1em !important;
+  }
+
+  .github table td {
+    border-bottom: 1px solid #ddd !important;
+    padding: .2em 1em !important;
+  }
+
+.github pre {
+  margin: 1em 0 !important;
+  font-size: 90% !important;
+  background-color: #f8f8ff !important;
+  border: 1px solid #dedede !important;
+  padding: .5em !important;
+  line-height: 1.5em !important;
+  color: #444 !important;
+  overflow: auto !important;
+}
+
+  .github pre code {
+    padding: 0 !important;
+    font-size: 100% !important;
+    background-color: #f8f8ff !important;
+    border: none !important;
+  }
+
+.github code {
+  font-size: 90% !important;
+  background-color: #f8f8ff !important;
+  color: #444 !important;
+  padding: 0 .2em !important;
+  border: 1px solid #dedede !important;
+}
+
+/* console */
+
+.github pre.console {
+  margin: 1em 0 !important;
+  font-size: 90% !important;
+  background-color: black !important;
+  padding: .5em !important;
+  line-height: 1.5em !important;
+  color: white !important;
+}
+
+  .github pre.console code {
+    padding: 0 !important;
+    font-size: 100% !important;
+    background-color: black !important;
+    border: none !important;
+    color: white !important;
+  }
+
+  .github pre.console span {
+    color: #888 !important;
+  }
+
+  .github pre.console span.command {
+    color: yellow !important;
+  }
+
+/* @end */
