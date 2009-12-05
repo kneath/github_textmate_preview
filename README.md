@@ -10,7 +10,6 @@ It allows you to see READMEs as they will be styled in GitHub:
 
 These files need to live in `~/Library/Application Support/TextMate/Themes/WebPreview/github`  To install quickly:
 
-    cd ~/Library/Application Support/TextMate/Themes/
-    mkdir -p WebPreview
-    cd WebPreview
+    mkdir -p ~/Library/Application\ Support/TextMate/Themes/WebPreview
+    cd ~/Library/Application\ Support/TextMate/Themes/WebPreview
     git clone git://github.com/kneath/github_textmate_preview.git github
