@@ -8,7 +8,7 @@ It allows you to see READMEs as they will be styled in GitHub:
 
 ## Installation
 
-    cd ~ Library/Application Support/TextMate/Themes/
+    cd ~/Library/Application Support/TextMate/Themes/
     mkdir -p WebPreview
     cd WebPreview
     git clone git://github.com/kneath/github_textmate_preview.git github
